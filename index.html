@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Mừng Ngày Phụ Nữ Việt Nam 20/10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card-container">
+        <h1 class="main-greeting">Chúc mừng Ngày Phụ nữ Việt Nam!</h1>
+
+        <div class="gift-box-wrapper">
+            <div class="gift-box">
+                <img src="G:/20/gift-box.png" alt="Hộp quà" class="gift-image">
+            </div>
+            <div class="heart-balloon">❤️</div>
+        </div>
+        
+        <div class="greeting-card-content">
+            <div class="card-inner">
+                <div class="card-header">
+                    <img src="G:/20/bunny-drawing.png" alt="Thỏ dễ thương" class="bunny-image">
+                </div>
+                <div class="card-body">
+                    <p class="date">20/10!</p>
+                    <p class="message">Nhân ngày 20/10 thì mình chúc các bạn nữ luôn vui vẻ và hạnh phúc và để tình yêu cho trai mĩ sống lâu :))) :)</p>
+                    <p class="signature">20/10 vui vẻ nhé</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.gift-box-wrapper').addEventListener('click', function() {
+            this.style.opacity = '0';
+            document.querySelector('.main-greeting').style.opacity = '0';
+            document.querySelector('.greeting-card-content').classList.add('open');
+        });
+    </script>
+</body>
+</html>
