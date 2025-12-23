@@ -1,44 +1,92 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chúc Mừng Ngày Phụ Nữ Việt Nam 20/10</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Star</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="card-container">
-        <h1 class="main-greeting">Chúc mừng Ngày Phụ nữ Việt Nam!</h1>
-
-        <div class="gift-box-wrapper">
-            <div class="gift-box">
-                <img src="qua.png" alt="Hộp quà" class="gift-image">
-            </div>
-            <div class="heart-balloon">❤️</div>
+    <div class="container-header">
+        <div class="logo">
+        <img src="images/logo.png" alt="">
+        <ul>
+            <li><a href="#">VNTM All Stars </a></li>
+            <li><a href="#">The Face </a></li>
+            <li><a href="#">Gương mặt thân quen </a></li>
+            <li><a href="#">Asia's Next Top Model 2017 </a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="#"> Trang chủ</a></li>
+            <li><a href="#">Sao 24h</a></li>
+            <li> <a href="#">Thời trang</a></li>
+            <li><a href="#">Điện ảnh</a></li>
+            <li><a href="#">Âm nhạc</a></li>
+            <li><a href="#">Đời sống</a></li>
+        </ul>
+    </div>
+    <div class="container content">
+        <div class="left">
+            <div class="left-top">
+            <a href="#">
+                <img src="images/LanKhue-1.jpg" alt="">
+                <p>Lan Khuê mạnh mẽ, bốc lửa ủng hộ tinh thần đội tuyển Việt Nam tại SEA Games 29</p>
+            </a>
+            <a href="#">
+                <img src="images/LyNaTrang.jpg" alt="">
+                <p>Ly Na Trang khoe nhan sắc ‘mỏng manh tựa sương mai’ trong tà áo dài truyền thống</p>
+            </a>
         </div>
-        
-        <div class="greeting-card-content">
-            <div class="card-inner">
-                <div class="card-header">
-                    <img src="bunny-drawing.png" alt="Thỏ dễ thương" class="bunny-image">
-                </div>
-                <div class="card-body">
-                    <p class="date">20/10!</p>
-                    <p class="message">Chúc Nấm ngày 20/10 ăn uống thoải mái, quà cáp chất đống, và đặc biệt là ăn hoài không béo, mà nhan sắc thì ngày càng "nặng ký" hơn! Luôn vui vẻ nhé cô gái!</p>
-                    <p class="signature">20/10 vui vẻ nhé</p>
-                </div>
+            <div class="left-bot">
+        <a href="#">
+                <img src="images/Cover-LacTroi.jpg" alt="">
+                <p>Cô gái cover ca khúc “Lạc Trôi” gây ấn tượng với vẻ ngoài nhí nhảnh
+                </p>
+            </a>
+            <a href="#">
+                <img src="images/ThuTrang.jpg" alt="">
+                <p>Thu Trang: Từ “Hoa hậu hài” đến “Mẹ mưa”</p>
+            </a>
+            <a href="#">
+                <img src="images/Dinh-Phuoc.jpg" alt="">
+                <p>Á quân Thần Tượng Bolero Đình Phước tăng tốc khởi động nhiều dự án âm nhạc</p>
+            </a>
+        </div>
+        <div class="left-news">
+
+            <div class="news-item">
+              <img src="images/NgocDuyen.jpg" alt="News 1">
+              <div class="news-content">
+                <h3>Kể về chuyện tình giữa người và yêu, Ngọc Duyên đăng quang quán quân Kịch cùng Bolero mùa đầu tiên</h3>
+                <p>Sự cạnh tranh ngang tài ngang sức giữa đạo diễn Ngọc Duyên và đạo diễn Vũ Trần...</p>
+              </div>
             </div>
+        
+            <div class="news-item">
+              <img src="images/NgoThanhVan.jpg" alt="News 2">
+              <div class="news-content">
+                <h3>Ngô Thanh Vân và Jun Phạm trong ngày đầu bấm máy phim mới</h3>
+                <p>Sáng ngày 15/8, đoàn phim "Về quê ăn Tết" do Ngô Thanh Vân sản xuất đã chính thức khai máy...</p>
+              </div>
+            </div>
+        
+            <div class="news-item">
+              <img src="images/NamEm.jpg" alt="News 3">
+              <div class="news-content">
+                <h3>Hoa hậu Nam Em khai trương nhà hàng mang chính tên mình</h3>
+                <p>Trong tuần này, Hoa hậu Trái Đất Việt Nam 2016 Nam Em sẽ chính thức khai trương nhà hàng...</p>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="right">
+
         </div>
     </div>
-
-    <script>
-        document.querySelector('.gift-box-wrapper').addEventListener('click', function() {
-            this.style.opacity = '0';
-            document.querySelector('.main-greeting').style.opacity = '0';
-            document.querySelector('.greeting-card-content').classList.add('open');
-        });
-    </script>
+    
 </body>
-
 </html>
-
